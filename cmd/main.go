@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 
@@ -19,7 +20,7 @@ var (
 	version     = "1.0.0"
 	saltLength  = 16
 	dekLength   = 32
-	vaultPath   = ".vault.json"
+	vaultPath   = filepath.Join(os.Getenv("HOME"), ".vault.json")
 	idLength    = 6
 	nonceLength = 12
 
