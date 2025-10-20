@@ -1,3 +1,5 @@
+![banner](https://i.imgur.com/Q06zuAF.png)
+
 # Vault
 
 A secure, local CLI-based password manager built in Go. Store and manage your passwords with military-grade encryption, all stored locally on your machine.
